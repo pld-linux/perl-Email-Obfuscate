@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
 %define	pnam	Obfuscate
-Summary:	Email::Obfuscate - Obfuscates email addresses
-#Summary(pl):	
+Summary:	Email::Obfuscate - obfuscates email addresses
+Summary(pl):	Email::Obfuscate - ukrawanie adresów e-mail
 Name:		perl-Email-Obfuscate
 Version:	1.13
 Release:	1
@@ -25,8 +25,8 @@ ostensibly superficial, attempt to thwart email address harvesters.
 
 Currently, there are eight different "types" of email address
 obfuscation transformations that this module employs. One of these
-transformations is randomly selected and used as a basis for obfuscation
-when obfuscate_email_address() is called.
+transformations is randomly selected and used as a basis for
+obfuscation when obfuscate_email_address() is called.
 
 # %description -l pl
 # TODO
