@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Obfuscate
 Summary:	Email::Obfuscate - obfuscates email addresses
-Summary(pl):	Email::Obfuscate - ukrywanie adresów e-mail
+Summary(pl.UTF-8):   Email::Obfuscate - ukrywanie adresÃ³w e-mail
 Name:		perl-Email-Obfuscate
 Version:	1.13
 Release:	1
@@ -28,14 +28,14 @@ obfuscation transformations that this module employs. One of these
 transformations is randomly selected and used as a basis for
 obfuscation when obfuscate_email_address() is called.
 
-%description -l pl
-Ten pakiet pozwala na ukrywanie adresów pocztowych w pozornie
-powierzchowny sposób, próbuj±c udaremniæ gromadzenie adresów przez
-spamerów.
+%description -l pl.UTF-8
+Ten pakiet pozwala na ukrywanie adresÃ³w pocztowych w pozornie
+powierzchowny sposÃ³b, prÃ³bujÄ…c udaremniÄ‡ gromadzenie adresÃ³w przez
+spamerÃ³w.
 
-Aktualnie modu³ wykorzystuje osiem ró¿nych rodzajów przekszta³ceñ
-ukrywaj±cych adresy pocztowe. Jedno z nich jest losowo wybierane i
-u¿ywane jako podstawa po wywo³aniu obfuscate_email_address().
+Aktualnie moduÅ‚ wykorzystuje osiem rÃ³Å¼nych rodzajÃ³w przeksztaÅ‚ceÅ„
+ukrywajÄ…cych adresy pocztowe. Jedno z nich jest losowo wybierane i
+uÅ¼ywane jako podstawa po wywoÅ‚aniu obfuscate_email_address().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
