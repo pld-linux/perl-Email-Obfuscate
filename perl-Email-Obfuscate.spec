@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Obfuscate
 Summary:	Email::Obfuscate - obfuscates email addresses
-Summary(pl.UTF-8):   Email::Obfuscate - ukrywanie adresów e-mail
+Summary(pl.UTF-8):	Email::Obfuscate - ukrywanie adresów e-mail
 Name:		perl-Email-Obfuscate
 Version:	1.13
 Release:	1
