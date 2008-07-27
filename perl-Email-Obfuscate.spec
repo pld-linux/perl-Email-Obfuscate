@@ -9,7 +9,7 @@ Summary:	Email::Obfuscate - obfuscates email addresses
 Summary(pl.UTF-8):	Email::Obfuscate - ukrywanie adresów e-mail
 Name:		perl-Email-Obfuscate
 Version:	1.13
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
