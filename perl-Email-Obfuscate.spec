@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Email
 %define	pnam	Obfuscate
+%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Obfuscate - obfuscates email addresses
 Summary(pl.UTF-8):	Email::Obfuscate - ukrywanie adresów e-mail
 Name:		perl-Email-Obfuscate
@@ -14,6 +14,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	dc2dfd650cd83d1f2bad9bec60cf45a2
+URL:		http://search.cpan.org/dist/Email-Obfuscate/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
