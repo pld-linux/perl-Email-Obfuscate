@@ -4,7 +4,6 @@
 
 %define	pdir	Email
 %define	pnam	Obfuscate
-%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Obfuscate - obfuscates email addresses
 Summary(pl.UTF-8):	Email::Obfuscate - ukrywanie adresów e-mail
 Name:		perl-Email-Obfuscate
